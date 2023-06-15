@@ -1,0 +1,144 @@
+:root {
+    --bs-background: #0B2447;
+    --padding-x: 24px;
+    --padding-y: 0;
+}
+
+body {
+    background-color: var(--bs-background);
+    padding: var(--padding-y) var(--padding-x);
+}
+
+/* TopBar CSS */
+.header_style {
+    height: 87px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+}
+
+.header_button {
+    width: 196px;
+    height: 44px;
+    color: #D2DB08;
+    border-radius: 6px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    left: 1173px;
+}
+
+.header_button.btn-outline-info {
+    border-color: #D2DB08;
+}
+
+.btn {
+    padding: 0;
+}
+
+.btn.header_button:hover {
+    width: 196px;
+    height: 44px;
+    color: #D2DB08;
+    border-radius: 6px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    left: 1173px;
+    background-color: transparent;
+    border-color: #D2DB08
+}
+
+.header_dashboard_out {
+    width: 209px;
+    height: 39px;
+    background-color: #0B2447;
+    padding: 0 55px;
+    border-radius: 6px;
+}
+
+.header_logo {
+    width: 72px;
+    height: 72px;
+}
+
+/* SideBar CSS */
+.SideBar_out {
+    width: 74px;
+    height: 920px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+}
+
+/* MainTopBar CSS */
+.MainTopBar_out {
+    height: 77px;
+    background-color: #0D2A53;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.MainTopHeader_button {
+    width: 149px;
+    height: 44px;
+    color: #E6E6E6;
+}
+
+.MainTopHeader_button.btn-outline-info {
+    border-color: #E6E6E6;
+}
+/* MainMiddleBar CSS */
+.MainMiddleBar_out {
+    height: 522px;
+    background-color: #0D2A53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* AdvertisementBanner_out */
+.AdvertisementBanner_out {
+    height: 318px;
+    background-color: #0D2A53;
+    border-radius: 8px;  
+    margin-top: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    color: #E6E6E6;
+}
+
+/* LeftBarHighlight_out */
+.LeftBarHighlight_out {
+    margin-top: 20px; 
+    height: 590px;
+    background-color: #0D2A53;
+    border-radius: 8px;   
+    padding-left: 20px;
+    padding-right: 20px;   
+    padding-top: 16px;
+}
+
+.LeftBarHighlight_header_text {
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #E6E6E6;
+    font-size: 25px;
+}
+
+/* LeftBarHighlightCard_out */
+.LeftBarHighlightCard_out {
+    height: 141px;
+    background-color: #0B2447;
+    border-radius: 8px;  
+    display: flex; 
+    margin-top: 20px;
+}

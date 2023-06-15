@@ -1,0 +1,89 @@
+.HighLightAvatar_out {
+    width: 101px;
+    height: 101px;
+    display: flex;
+    vertical-align: center;
+}
+
+.hightlight_avatar {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.highlight_logo {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.HighLightMiddle_out {
+    margin-left: 0px;
+}
+
+.HighLightMiddle_1 {
+    font-size: 29px;
+    color: #D2DB08;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+
+.HighLightMiddle_2 {
+    font-size: 18px;
+    color: #E6E6E6;
+    font-family: 'Roboto';
+    margin-top: 1px;
+}
+
+.HighLightMiddle_3 {
+    font-size: 20px;
+    color: #E6E6E6;
+    font-family: 'Roboto';
+    margin-top: 5px;
+}
+
+.highlight_number {
+    color: #4DD5FF;
+    font-size: 20px;    
+}
+
+.HighLightEnd_out {
+    margin-left: 20px;
+}
+
+.HighLightEnd_1 {
+    margin-top: 12px;
+}
+
+.HighLightEnd_2 {
+    justify-content: space-evenly;
+    margin-top: 14.5px;
+}
+
+.HighLightEnd_3 {
+    margin-top: 0px;
+}
+
+.highlight_button {
+    width: 95px;
+    height: 34px;
+    font-size: 17px;
+    color: #77FFA9;
+}
+
+.highlight_button.btn-outline-info {
+    border-color: #77FFA9;
+}
+
+.highlightMiddle_expert_button {
+    width: 117.03px;
+    height: 30.28px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #FFA200;
+}
+
+.highlightMiddle_expert_button.btn-outline-info {
+    border-color: #FFA200;
+}
