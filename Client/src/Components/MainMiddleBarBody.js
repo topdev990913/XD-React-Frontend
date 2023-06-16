@@ -4,20 +4,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import MatchDetailsBox from "./MatchDetailsBox";
 import AnalysisBox from "./AnalysisBox";
-const MainMiddleBarBody = () => {
+const MainMiddleBarBody = ({checkedForYou, setCheckedForYou}) => {
     return (
         <div className="d-flex">
             <div className="MatchDetails_out">
                 <div className="MatchDetails_header_text">
                     Match Details
                 </div>
-                <MatchDetailsBox />
+                <MatchDetailsBox checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
             </div>
             <div className="Analysis_out">
                 <div className="MatchDetails_header_text">
                     Analysis
                 </div>
-                <AnalysisBox/>
+                <AnalysisBox checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou}/>
             </div>
         </div>
     );

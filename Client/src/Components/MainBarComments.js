@@ -3,39 +3,17 @@ import "../Css/Components.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import {
-    ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem
+    Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
-const MainTopBar = ({checkedForYou, setCheckedForYou}) => {
+import MainMiddleBar from "./MainMiddleBar";
+const MainBarComments = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const toggle = () => setDropdownOpen(!dropdownOpen);
-    console.log("checkedForyou", checkedForYou);
     return (
-        <div className="MainTopBar_out">
-            <div style={{ width: "50%" }}>
-                <div className="d-flex justify-content-start align-items-center">
-                    {checkedForYou === 1 ?
-                        <svg xmlns="http://www.w3.org/2000/svg" width="83" height="33" viewBox="0 0 83 33" className="MainOption" onClick={() => { setCheckedForYou(1) }} >
-                            <text id="For_You" data-name="For You" transform="translate(0 27)" fill="#d2db08" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">For You</tspan></text>
-                        </svg>
-                        :
-                        <svg xmlns="http://www.w3.org/2000/svg" width="83" height="33" viewBox="0 0 83 33" className="MainOption" onClick={() => { setCheckedForYou(1) }}>
-                            <text id="For_You" data-name="For You" transform="translate(0 27)" fill="#e6e6e6" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">For You</tspan></text>
-                        </svg>
-                    }
-                    {checkedForYou === 2 ?
-                        <svg xmlns="http://www.w3.org/2000/svg" width="190" height="33" viewBox="0 0 190 33" style={{ marginLeft: "20px" }} className="MainOption" onClick={() => { setCheckedForYou(2) }}>
-                            <text id="My_Subscriptions" data-name="My Subscriptions" transform="translate(0 27)" fill="#d2db08" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">My Subscriptions</tspan></text>
-                        </svg>
-                        :
-
-                        <svg xmlns="http://www.w3.org/2000/svg" width="190" height="33" viewBox="0 0 190 33" style={{ marginLeft: "20px" }} className="MainOption" onClick={() => { setCheckedForYou(2) }}>
-                            <text id="My_Subscriptions" data-name="My Subscriptions" transform="translate(0 27)" fill="#e6e6e6" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">My Subscriptions</tspan></text>
-                        </svg>
-                    }
-                </div>
-            </div>
-            <div style={{ width: "50%" }}>
-                <div className="d-flex justify-content-end align-items-center">
+        <div className="MainBar_Comment_out">
+            <div className="d-flex MainBar_Edit_Search_Comments">
+                <input type="text" alt="search" className="searchBar_Style" placeholder="Correo electrónico" />
+                <div className="d-flex">
                     <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
                         <DropdownToggle className="MainTopHeader_button" caret>
                             All
@@ -46,7 +24,7 @@ const MainTopBar = ({checkedForYou, setCheckedForYou}) => {
                             <DropdownItem className="Dropdown_item_color">Basketball</DropdownItem>
                         </DropdownMenu>
                     </ButtonDropdown>
-                    {/* <Button type="submit" color="info" className="MainTopHeader_button" outline>All</Button> */}
+                    <Button type="submit" color="info" className="MainTopHeader_button_Comment" outline>Filter</Button>
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" style={{ marginLeft: "20px" }} >
                         <g id="world-check" transform="translate(0)">
                             <path id="Path_554" data-name="Path 554" d="M0,0H42V42H0Z" transform="translate(0)" fill="none" />
@@ -58,18 +36,29 @@ const MainTopBar = ({checkedForYou, setCheckedForYou}) => {
                             <path id="Path_560" data-name="Path 560" d="M15,20.581l3.581,3.581L25.742,17" transform="translate(10.887 12.468)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         </g>
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="27" viewBox="0 0 100 27">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="37" viewBox="0 0 100 27">
                         <text id="Only_Public" data-name="Only Public" transform="translate(0 22)" fill="#e6e6e6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Only Public</tspan></text>
                     </svg>
                     <div className="position-relative" style={{ marginLeft: "10px" }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="44" viewBox="0 0 34 34">
                             <circle id="Ellipse_135" data-name="Ellipse 135" cx="17" cy="17" r="17" fill="#e6e6e6" />
                             <circle id="Ellipse_137" data-name="Ellipse 137" cx="17" cy="17" r="14" fill="#0b2447" />
                         </svg>
                     </div>
                 </div>
             </div>
+            <div className="MainBarCommentMiddle_out"> 
+            {/* <div style={{ marginTop: "20px" }}> */}
+                <MainMiddleBar />
+            </div>
+            <div className="MainBarCommentMiddle_out"> 
+            {/* <div style={{ marginTop: "20px" }}> */}
+                <MainMiddleBar />
+            </div>
+           
         </div>
+
+
     );
 };
-export default MainTopBar;
+export default MainBarComments;

@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Row } from "reactstrap";
 import "../Css/Components.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-const SideBar = () => {
-    const [checkedMainOption, setCheckedMainOption] = useState(1)
+const SideBar = ({checkedMainOption, setCheckedMainOption}) => {
     console.log("checkedMainOption", checkedMainOption)
     return (
         <div className="SideBar_out">

@@ -8,16 +8,16 @@ import MainMiddleBarMiddle from "./MainMiddleBarMiddle";
 import MainMiddleBarButtonGroup from "./MainMiddleBarButtonGroup";
 import MainMiddleBarBody from "./MainMiddleBarBody";
 import MainMiddleBarFooter from "./MainMiddleBarFooter";
-const MainMiddleBar = () => {
+const MainMiddleBar = ({ checkedForYou, setCheckedForYou }) => {
     return (
         <div className="MainMiddleBar_out">
             <div className="d-flex">
                 <HighLightAvatar />
                 <HighLightMiddleExpert />
                 <MainMiddleBarMiddle />
-                <MainMiddleBarButtonGroup />
+                <MainMiddleBarButtonGroup checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou}/>
             </div>
-            <MainMiddleBarBody />
+            <MainMiddleBarBody checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
             <MainMiddleBarFooter />
         </div>
 
