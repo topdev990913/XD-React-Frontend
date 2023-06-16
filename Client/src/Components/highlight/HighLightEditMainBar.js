@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import HighLightAvatar from "./HighLightAvatar";
 import { Button } from "reactstrap";
+import { Link } from "react-router-dom";
 const HighLightEditMainBar = () => {
     return (
         <div className="HighLightEditMainBar_out">
@@ -56,7 +57,7 @@ const HighLightEditMainBar = () => {
                 256
             </div>
             <div className="EditMainBar_8">
-                <Button type="submit" color="info" className="highlight_button_Edit" outline>View Profile</Button>
+                <Link to="/ViewProfile"><Button type="submit" color="info" className="highlight_button_Edit" outline>View Profile</Button></Link>
             </div>
             <div className="EditMainBar_7">
                 <svg id="star" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">

@@ -1,0 +1,39 @@
+.VP_MC_EP_out {
+    background-color: #0D2A53;
+    height: 752px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.display_VP {
+    justify-content: space-between;
+}
+
+.VP_EP_Left {
+    margin-top: 63.5px;
+    text-align: center;
+}
+
+.VP_EP_LEFT_Text_field {
+    color: #E6E6E6;
+    width: 118.06px;
+    height: 29.92px;
+    background-color: #0B2447;
+    font-size: 18px;
+}
+
+.VP_EP_LEFT_Text2 {
+    color: #D2DB08;
+    font-size: 35px;
+}
+
+.VP_EP_LEFT_Text3 {
+    color: #D2DB08;
+    font-size: 20px;
+}
+
+.VP_EP_LEFT_Text5 {
+    color: #37FF80;
+    font-size: 35px;
+}
