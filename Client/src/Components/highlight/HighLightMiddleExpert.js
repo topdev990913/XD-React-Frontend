@@ -9,7 +9,7 @@ const HighLightMiddleExpert = () => {
             <div className="HighLightMiddle_1">
                 <Button type="submit" color="info" className="highlightMiddle_expert_button" outline>expert</Button>
             </div>
-            <div className="d-flex">
+            <div className="d-flex align-items-center">
                 <div className="HighLightMiddle_2">
                     melih1905
                 </div>

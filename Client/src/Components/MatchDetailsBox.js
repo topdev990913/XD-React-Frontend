@@ -11,18 +11,18 @@ const MatchDetailsBox = ({ checkedForYou, setCheckedForYou }) => {
             <div className="d-flex display_MatchDetail">
                 <div className="d-flex justify-content-start align-items-center">
                     <img src={Champion} alt="Champion" className="Champion_Logo_Size" />
-                    <div className="Champion_text">Champions League</div>
+                    <div className="Champion_text" style={{marginLeft: "4px"}}>Champions League</div>
                 </div>
                 <div className="d-flex justify-content-end align-items-center">
-                    <div className="Champion_text">Public Content</div>
+                    <div className="Champion_text_public">Public Content</div>
                     <img src={Earth} alt="Earth" className="Earth_Logo_Size" />
                 </div>
             </div>
-            <div className="d-flex justify-content-center Champion_text" style={{ marginTop: "-3px" }}>
+            <div className="d-flex justify-content-center Champion_text" style={{ marginTop: "-28px" }}>
                 07.05.2023
             </div>
             <div className="d-flex justify-content-center">
-                <div className="d-flex">
+                <div className="d-flex" style={{marginTop: "30px"}}>
                     <div className="Champion_text">
                         Galatasaray FC
                     </div>

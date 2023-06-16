@@ -13,12 +13,12 @@ const MainMiddleBarFooter = () => {
                     </g>
                 </svg>
                 <div className="Footer_text">238</div>
-                <svg id="star" xmlns="http://www.w3.org/2000/svg" width="39.863" height="39.864" viewBox="0 0 39.863 39.864">
+                <svg id="star" xmlns="http://www.w3.org/2000/svg" width="39.863" height="39.864" viewBox="0 0 39.863 39.864" style={{marginLeft: "21.68px"}}>
                     <path id="Path_272" data-name="Path 272" d="M0,0H39.863V39.864H0Z" fill="none" />
                     <path id="Path_273" data-name="Path 273" d="M18.189,27.3,8.194,32.515,10.1,21.473l-8.1-7.819L13.18,12.048,18.178,2l5,10.046,11.173,1.607-8.1,7.819,1.909,11.042Z" transform="translate(1.741 1.737)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 </svg>
                 <div className="Footer_text">238</div>
-                <svg id="clap-svgrepo-com" xmlns="http://www.w3.org/2000/svg" width="34.63" height="34.63" viewBox="0 0 34.63 34.63">
+                <svg id="clap-svgrepo-com" xmlns="http://www.w3.org/2000/svg" width="34.63" height="34.63" viewBox="0 0 34.63 34.63" style={{marginLeft: "21.68px"}}>
                     <path id="Path_450" data-name="Path 450" d="M262.15,23.2a.7.7,0,0,0-.8-1.137L259.607,23.3a.7.7,0,1,0,.8,1.137Z" transform="translate(-229.083 -19.459)" fill="#4dd5ff" />
                     <path id="Path_451" data-name="Path 451" d="M240.625,3.93a.7.7,0,0,0,.9-.407l.75-1.994a.7.7,0,0,0-1.3-.49l-.75,1.994A.7.7,0,0,0,240.625,3.93Z" transform="translate(-212.165 -0.587)" fill="#4dd5ff" />
                     <path id="Path_452" data-name="Path 452" d="M269.7,55.611h-.014l-2.13.018a.676.676,0,0,0-.682.687.7.7,0,0,0,.7.688h.014l2.13-.036a.689.689,0,0,0,.682-.7A.673.673,0,0,0,269.7,55.611Z" transform="translate(-235.763 -49.173)" fill="#4dd5ff" />

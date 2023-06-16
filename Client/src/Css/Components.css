@@ -176,8 +176,8 @@ body {
     height: 590px;
     background-color: #0D2A53;
     border-radius: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 16px;
 }
 
@@ -224,7 +224,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 128px;
 }
 
 .MainMiddleBarButtonGroup_out_none {
@@ -258,12 +258,12 @@ body {
 /* MainMiddleBarMiddleBody */
 .MatchDetails_out {
     width: 55%;
-    margin-top: 30px;
+    margin-top: 21.17px;
 }
 
 .Analysis_out {
     width: 45%;
-    margin-top: 30px;
+    margin-top: 21.17px;
 }
 
 .Analysis_sub {
@@ -272,6 +272,7 @@ body {
 
 .MatchDetails_header_text {
     color: #E6E6E6;
+    font-size: 20px;
 }
 
 .MatchDetailsBox_out {
@@ -280,17 +281,26 @@ body {
     border-radius: 8px;
     padding-left: 12px;
     padding-right: 12px;
-    margin-top: 20px;
+    margin-top: 15.13px;
     margin-right: 10px;
     padding-top: 8px;
 }
 
 .Champion_text {
     color: #E6E6E6;
+    font-size: 20px;
+}
+
+.Champion_text_public {
+    font-size: 17px;
+    color: #E6E6E6;
 }
 
 .display_MatchDetail {
     justify-content: space-between;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .AnalysisBox_out {
@@ -299,22 +309,22 @@ body {
     border-radius: 8px;
     padding-left: 12px;
     padding-right: 12px;
-    margin-top: 20px;
+    margin-top: 15.13px;
     margin-right: 10px;
     padding-top: 8px;
 }
 
 .Clock_logo_Size {
     /* position: absolute; */
-    margin-top: -15px;
-    margin-left: 10px;
+    margin-top: -49px;
+    margin-left: -15px;
 }
 
 .Champion_text_1 {
     /* position: absolute; */
     color: #E6E6E6;
     margin-top: -100px;
-    margin-left: 65px;
+    margin-left: 40px;
 
 }
 
@@ -324,7 +334,7 @@ body {
 
 .MainMiddleBarFooter_out {
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .Footer_text {
@@ -346,17 +356,13 @@ body {
 .MainBarCommentMiddle_out {
     height: 522px;
     margin-top: 20px;
-    background-color: #0B2447;
     align-items: center;
     border-radius: 8px;
 }
 .MainBar_Comment_out {
-    background-color: #0D2A53;
     align-items: center;
     margin-top: 20px;
     border-radius: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .MainBarEdit_Header {
@@ -364,6 +370,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
+    padding-top: 26px;
 }
 
 .MainBar_Edit_Search {
@@ -376,6 +383,10 @@ body {
     margin-top: 15px;
     height: 77px;
     align-items: center;
+    background-color: #0D2A53;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .searchBar_Style {
@@ -405,4 +416,70 @@ body {
     border-color: #E6E6E6;
     border-radius: 8px;
     margin-left: 10px;
+}
+
+/* Filter Modal Css */
+.modal-content {
+    background-clip: none;
+    background-color: #0D2A53;
+    width: 567px;
+    height: 862px;
+    padding-left: 23.92px;
+    padding-right: 23.92px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.Filter_Modal_Label {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.form-select {
+    background-image: none;
+    border: none;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    text-align: center;
+}
+
+.form-select:focus-visible {
+    background-image: none;
+    border: none;
+}
+.form-select:focus {
+    background-image: none;
+    border: none;
+}
+
+.Filter_Modal_Label {
+    margin-top: 0.5px;
+}
+.crypto_dropdown {
+    margin-top: 7px;
+}
+
+.modal_Footer_Button {
+    width: 160px;
+    height: 53px;
+    color: #D2DB08;
+    border-radius: 8px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+}
+
+.modal_Footer_Button.btn-outline-info {
+    border-color: #D2DB08;
 }

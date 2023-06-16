@@ -16,7 +16,7 @@ const MainBarEdit = () => {
     return (
         <div className="MainBar_Edit_out">
             <div className="MainBarEdit_Header">
-                Editor
+                    Editor
             </div>
             <div className="d-flex MainBar_Edit_Search">
                 <input type="text" alt="search" className="searchBar_Style" placeholder="Correo electrónico" />
@@ -63,7 +63,7 @@ const MainBarEdit = () => {
                 <HighLightEditMainBar />
                 <HighLightEditMainBar />
             </div>
-            </div>
+        </div>
 
 
     );

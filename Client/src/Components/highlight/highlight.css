@@ -23,7 +23,7 @@
 }
 
 .HighLightMiddle_out_Edit {
-    margin-top: 40px;
+    margin-top: 32px;
 }
 
 .HighLightMiddle_1 {
@@ -34,14 +34,19 @@
 }
 
 .HighLightMiddle_2 {
+    font-size: 26px;
+    color: #E6E6E6;
+    font-family: 'Roboto';
+}
+
+.HighLightMiddle_2_origin {
     font-size: 18px;
     color: #E6E6E6;
     font-family: 'Roboto';
-    margin-top: 1px;
 }
 
 .HighLightMiddle_2_Edit {
-    font-size: 18px;
+    font-size: 25px;
     color: #E6E6E6;
     font-family: 'Roboto';
     margin-top: 1px;
@@ -55,18 +60,24 @@
 }
 
 .HighLightMiddle_3_Edit {
-    font-size: 15px;
+    font-size: 20px;
     color: #E6E6E6;
     font-family: 'Roboto';
     margin-top: 1px;
 }
+
 .highlight_number {
     color: #4DD5FF;
-    font-size: 20px;    
+    font-size: 20px;
+}
+
+.highlight_number_Edit {
+    color: #4DD5FF;
+    font-size: 29px;    
 }
 
 .HighLightEnd_out {
-    margin-left: 20px;
+    margin-left: 43px;
 }
 
 .HighLightEnd_1 {
@@ -106,8 +117,9 @@
 }
 
 .HighLightMiddle_3_expert {
-    font-size: 10px;
+    font-size: 17px;
     color: #E6E6E6;
+    margin-top: -7px;
 }
 
 .HighLightEditMainBar_out {
@@ -119,7 +131,7 @@
 }
 
 .EditMainBar_1 {
-    margin-left: -10px;
+    margin-left: -5px;
     align-items: center;
     color: #D2DB08;
     font-size: 25px;
@@ -127,7 +139,7 @@
 }
 
 .EditMainBar_2 {
-    margin-left: 20px;
+    margin-left: 55px;
     align-items: center;
     color: #FFA200;
     font-size: 25px;
@@ -135,7 +147,7 @@
 }
 
 .EditMainBar_3 {
-    margin-left: 40px;
+    margin-left: 83.17px;
     align-items: center;
     display: flex;
 }
@@ -146,7 +158,7 @@
 }
 
 .EditMainBar_5 {
-    margin-left: 40px;
+    margin-left: 79px;
     align-items: center;
     color: #37FF80;
     font-size: 25px;
@@ -154,19 +166,21 @@
 }
 
 .EditMainBar_6 {
-    margin-left: 30px;
+    margin-left: 57px;
     align-items: center;
     color: #FF5757;
     font-size: 25px;
     display: flex;
 }
+
 .EditMainBar_7 {
     align-items: center;
     display: flex;
+    margin-left: 35px;
 }
 
 .EditMainBar_8 {
-    margin-left: 10px;
+    margin-left: 57px;
     align-items: center;
     display: flex;
 }

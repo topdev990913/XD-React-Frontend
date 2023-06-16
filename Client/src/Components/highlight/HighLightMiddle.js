@@ -9,7 +9,7 @@ const HighLightMiddle = () => {
                 %63.2
             </div>
             <div className="d-flex">
-                <div className="HighLightMiddle_2">
+                <div className="HighLightMiddle_2_origin">
                     melih1905
                 </div>
                 <svg id="MDI_check-decagram" data-name="MDI / check-decagram" xmlns="http://www.w3.org/2000/svg" width="26.274" height="26.274" viewBox="0 0 26.274 26.274">

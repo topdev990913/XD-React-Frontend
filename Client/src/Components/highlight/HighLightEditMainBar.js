@@ -9,8 +9,8 @@ const HighLightEditMainBar = () => {
         <div className="HighLightEditMainBar_out">
             <HighLightAvatar />
             <div className="HighLightMiddle_out_Edit">
-                <div className="d-flex">
-                    <div className="HighLightMiddle_2">
+                <div className="d-flex align-items-center">
+                    <div className="HighLightMiddle_2_Edit">
                         melih1905
                     </div>
                     <svg id="MDI_check-decagram" data-name="MDI / check-decagram" xmlns="http://www.w3.org/2000/svg" width="26.274" height="26.274" viewBox="0 0 26.274 26.274">
@@ -22,7 +22,7 @@ const HighLightEditMainBar = () => {
                     </svg>
                 </div>
                 <div className="HighLightMiddle_3_Edit">
-                    <span className="highlight_number">2,655</span> People subscribed
+                    <span className="highlight_number_Edit">2,655</span> People subscribed
                 </div>
             </div>
             <div className="EditMainBar_1">
