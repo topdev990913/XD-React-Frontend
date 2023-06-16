@@ -17,7 +17,7 @@ const MainMiddleBarBody = () => {
                 <div className="MatchDetails_header_text">
                     Analysis
                 </div>
-                <AnalysisBox />
+                <AnalysisBox/>
             </div>
         </div>
     );

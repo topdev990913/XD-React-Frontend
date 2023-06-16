@@ -11,7 +11,6 @@ const AnalysisBox = () => {
                 <path id="Path_428" data-name="Path 428" d="M11,18.588A3.588,3.588,0,1,0,14.588,15,3.588,3.588,0,0,0,11,18.588" transform="translate(28.473 38.827)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                 <path id="Path_429" data-name="Path 429" d="M8,31.708V17.354a14.354,14.354,0,0,1,28.708,0V31.708" transform="translate(20.708 7.765)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
             </svg>
-
         </div>
     );
 };

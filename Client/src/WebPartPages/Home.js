@@ -18,7 +18,7 @@ const Home = () => {
                 <div className="SideBar_Home_out">
                     <SideBar />
                 </div>
-                <div style={{width: "calc(100% - 74px)"}}>
+                <div style={{ width: "calc(100% - 74px)" }}>
                     <div className="row">
                         <div className="MainBar_out">
                             <MainTopBar />
