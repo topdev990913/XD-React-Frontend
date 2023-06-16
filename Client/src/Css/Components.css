@@ -77,6 +77,8 @@ body {
     align-items: center;
     margin-top: 20px;
     border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .MainTopHeader_button {
@@ -88,13 +90,12 @@ body {
 .MainTopHeader_button.btn-outline-info {
     border-color: #E6E6E6;
 }
+
 /* MainMiddleBar CSS */
 .MainMiddleBar_out {
     height: 522px;
     background-color: #0D2A53;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 20px;
     border-radius: 8px;
     padding-left: 25px;
@@ -105,8 +106,8 @@ body {
 .AdvertisementBanner_out {
     height: 318px;
     background-color: #0D2A53;
-    border-radius: 8px;  
-    margin-top: 20px;  
+    border-radius: 8px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,12 +119,12 @@ body {
 
 /* LeftBarHighlight_out */
 .LeftBarHighlight_out {
-    margin-top: 20px; 
+    margin-top: 20px;
     height: 590px;
     background-color: #0D2A53;
-    border-radius: 8px;   
+    border-radius: 8px;
     padding-left: 20px;
-    padding-right: 20px;   
+    padding-right: 20px;
     padding-top: 16px;
 }
 
@@ -138,7 +139,135 @@ body {
 .LeftBarHighlightCard_out {
     height: 141px;
     background-color: #0B2447;
-    border-radius: 8px;  
-    display: flex; 
+    border-radius: 8px;
+    display: flex;
     margin-top: 20px;
+}
+
+/* MainMiddleBarMiddle_out */
+.MainMiddleBarMiddle_out {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.MainMiddleBarMiddle_1_1 {
+    color: #E6E6E6;
+    font-size: 19px;
+}
+
+.MainMiddleBarMiddle_1_2 {
+    color: #D2DB08;
+    font-size: 38px;
+}
+
+.MainMiddleBarMiddle_2_2 {
+    color: #FF9100;
+    font-size: 38px;
+}
+
+.MainMiddleBarButtonGroup_out {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.MainMiddleBarButton_1 {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #77FFA9;
+    border-radius: 6px;
+}
+
+.MainMiddleBarButton_1.btn-outline-info {
+    border-color: #77FFA9;
+}
+
+.MainMiddleBarButton_2 {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #4DD5FF;
+    border-radius: 6px;
+}
+
+.MainMiddleBarButton_2.btn-outline-info {
+    border-color: #4DD5FF;
+}
+
+/* MainMiddleBarMiddleBody */
+.MatchDetails_out {
+    width: 55%;
+    margin-top: 30px;
+}
+
+.Analysis_out {
+    width: 45%;
+    margin-top: 30px;
+}
+
+.MatchDetails_header_text {
+    color: #E6E6E6;
+}
+
+.MatchDetailsBox_out {
+    height: 241px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-top: 8px;
+}
+
+.Champion_text {
+    color: #E6E6E6;
+    margin-top: 32px;
+}
+
+.display_MatchDetail {
+    justify-content: space-between;
+}
+
+.AnalysisBox_out {
+    height: 241px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-top: 8px;
+}
+
+.Clock_logo_Size {
+    /* position: absolute; */
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.Champion_text_1 {
+    /* position: absolute; */
+    color: #E6E6E6;
+    margin-top: -100px;
+    margin-left: 65px;
+
+}
+
+.MatchingDetailFooterButton {
+    margin-top: 40px;
+}
+
+.MainMiddleBarFooter_out {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Footer_text {
+    color: #E6E6E6;
+    font-size: 21px;
 }

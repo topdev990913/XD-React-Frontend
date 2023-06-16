@@ -23,11 +23,11 @@ const Home = () => {
                         <div className="MainBar_out">
                             <MainTopBar />
                             <MainMiddleBar />
+                            <MainMiddleBar />
                         </div>
                         <div className="RightBar_out">
                             <AdvertisementBanner />
                             <LeftBarHighlight />
-
                         </div>
                     </div>
                 </div>
