@@ -37,3 +37,388 @@
     color: #37FF80;
     font-size: 35px;
 }
+
+.VP_EP_Middle_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VP_EP_Middle_2 {
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.VP_EP_Middle {
+    text-align: center;
+}
+
+.VP_EP_Right_1 {
+    color: #E6E6E6;
+    font-size: 17px;
+}
+
+.VP_EP_Right {
+    text-align: center;
+}
+
+.VP_EP_Right_3 {
+    color: #FFA200;
+    font-size: 35px;
+}
+
+.VP_EP_Right_4 {
+    color: #FF5757;
+    font-size: 35px;
+}
+
+.VP_EP_LEFT_Text6 {
+    color: #E6E6E6;
+    font-size: 18px;
+    margin-top: 76.3px;
+}
+
+.VP_EP_LEFT_Text7 {
+    color: #E6E6E6;
+    font-size: 25px;
+}
+
+.PieChatBack {
+    position: absolute;
+}
+
+.PieChatProgress {
+    position: absolute;
+    padding-left: 50px;
+    margin-top: 53px;
+    margin-left: -64px;
+}
+
+.VP_EP_Middle_3 {
+    margin-left: -251px;
+}
+
+.VP_EP_Middle_4 {
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 292px;    
+}
+
+.VP_EP_LEFT_Middle_5 {
+    color: #FFA200;
+    font-size: 45px;
+}
+
+.VP_EP_LEFT_Middle_6 {
+    color: #FFA200;
+    font-size: 23px;
+    font-weight: medium;
+    margin-top: 10px;
+}
+
+.VP_EP_Button {
+    width: 117.03px;
+    height: 30.28px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #FFA200;
+    margin-left: 77px;
+    margin-top: 146px;
+    position: absolute;
+}
+
+.VP_EP_LEFT_SUB_out {
+    height: 42.61px;
+    background-color: #0B2447;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+}
+
+.VP_EP_LEFT_SUB_out_1 {
+    height: 42.61px;
+    background-color: #0B2447;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 7px;
+}
+.VP_EP_LEFT_SUB_1 {
+    color: #E6E6E6;
+    font-size: 17px;
+}
+
+.VP_MC_EP_About_out {
+    background-color: #0D2A53;
+    height: 147px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.VP_MC_EP_About_1 {
+    color: #E6E6E6;
+    font-size: 22px;
+    font-weight: medium;
+    padding-top: 14.2px;
+}
+
+.VP_MC_EP_About_2 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VP_Right_TopBar_out {
+    height: 77px;
+    margin-top: 20px;
+    background-color: #0D2A53;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.VP_Right_TopBar_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VP_Right_TopBar_2 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VP_Right_TopBar_Button1 {
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #0CC6FF;
+    margin-top: 15px;
+}
+
+.VP_Right_TopBar_Button2 {
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #37FF80;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.VP_Right_TopBar_Button1.btn-outline-info {
+    border-color: #0CC6FF;
+}
+
+.VP_Right_TopBar_Button2.btn-outline-info {
+    border-color: #37FF80;
+}
+
+.VPRightBarSubTopBar_out {
+    height: 77px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.VPRightBarSubTopBar_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.VPRightBarSubTopBar_2 {
+    color: #E6E6E6;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 24.3px;
+}
+
+.VPRigthBarSub1_out {
+    background-color: #0D2A53;
+    height: 322px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.VPRigthBarSub1_1 {
+    color: #E6E6E6;
+    font-size: 17px;
+    padding-top: 22px;
+}
+
+.VPRigthBarSub1_2 {
+    height: 163px;
+    background: #0B2447;
+    border-radius: 8px;
+    margin-top: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.VPRigthBarSub1_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20.5px;
+    margin-left: 5px;
+}
+
+.TurkeyLogo {
+    margin-top: 14.1px;
+}
+
+.VPRigthBarSub1_4 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.RightBar_VP {
+    justify-content: center;
+}
+
+.VPRigthBarSub1_5 {
+    text-align: center;
+}
+
+.RightLogo {
+    margin-top: -69px;
+}
+
+.VPRigthBarSub1_6 {
+    margin-top: -134px;
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPRigthBarSub1_7 {
+    margin-top: 21px;
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPRigthBarSub2_out {
+    height: 355px;
+    border-radius: 8px;
+    background-color: #0D2A53;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.VPRigthBarSub2_1 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.VPRigthBarSub2_2 {
+    color: #4DD5FF;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_out {
+    height: 76px;
+    background-color: #0B2447;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.VPRightBarHighlight_2 {
+    color: #E6E6E6;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_2_win {
+    color: #37FF80;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_2_New {
+    color: #D2DB08;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_3 {
+    color: #E6E6E6;
+    font-size: 13px;
+}
+
+.VPRightBarHighlight_4 {
+    color: #E6E6E6;
+    font-size: 16px;
+}
+
+.display_highlight {
+    justify-content: space-between;
+}
+
+.RightBarhighlightLogo_back {
+    position: absolute;
+}
+
+.RightBarhighlightLogo1 {
+    position: absolute;
+    padding-left: 53px;
+    margin-left: -33px;
+    margin-top: 20px;
+}
+
+.VPRigthBarSub3_out {
+    height: 447px;
+    background-color: #0D2A53;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.VPRigthBarSub3_1 {
+    text-align: center;
+}
+
+.VPRigthBarSub3_2 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.Support_Button {
+    width: 231px;
+    height: 46px;
+    border-radius: 6px;
+    color: #19376D;
+    background-color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.HighlightLogo {
+    margin-top: -5px;
+}
+
+.VPRigthBarSub3_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 30.6px;
+}

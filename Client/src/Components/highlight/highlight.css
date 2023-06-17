@@ -5,6 +5,14 @@
     vertical-align: center;
 }
 
+.HighLightAvatar_out_VP {
+    width: 101px;
+    height: 101px;
+    display: flex;
+    vertical-align: center;
+    margin-left: -28px;
+}
+
 .hightlight_avatar {
     position: absolute;
     margin-top: 20px;
@@ -20,8 +28,8 @@
 
 .highlight_logo_VP {
     position: absolute;
-    padding-left: 53px;
-    margin-top: 40px;
+    padding-left: 116px;
+    margin-top: 66px;
     margin-left: 5px;
 }
 .HighLightMiddle_out {

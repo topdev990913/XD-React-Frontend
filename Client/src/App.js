@@ -10,8 +10,8 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Home />} />           
-          <Route exact path="/ViewProfile" element={<ViewProfile />} />           
+          <Route exact path="/" element={<Home/ >} />
+          <Route exact path="/ViewProfile" element={<ViewProfile />} />
         </Routes>
       </Router>
     </div>

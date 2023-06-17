@@ -6,7 +6,7 @@ import hightlight_avatar1 from './assets/portrait-of-happy-and-cheerful-handsome
 import highlight_logo1 from './assets/MDI - crown-circle-outline1.png'
 const HighLightAvatarVP = () => {
     return (
-        <div className="HighLightAvatar_out">
+        <div className="HighLightAvatar_out_VP">
             <img src={hightlight_avatar1} alt="highlight_avatar" className="hightlight_avatar" />
             <img src={highlight_logo1} alt="highlight_logo" className="highlight_logo_VP" />
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
@@ -12,7 +12,7 @@ import LeftBarHighlight from "../Components/LeftBarHighlight";
 import MainMiddleBar from "../Components/MainMiddleBar";
 import MainBarEdit from "../Components/MainBar_Edit";
 import MainBarComments from "../Components/MainBarComments";
-const Home = () => {
+const Home = () => {    
     const [checkedForYou, setCheckedForYou] = useState(1);
     const [checkedMainOption, setCheckedMainOption] = useState(1)
     const displayCase = () => {
