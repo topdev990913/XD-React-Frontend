@@ -100,7 +100,7 @@
 .VP_EP_Middle_4 {
     position: absolute;
     margin-top: 84px;
-    margin-left: 292px;    
+    margin-left: 292px;
 }
 
 .VP_EP_LEFT_Middle_5 {
@@ -143,6 +143,7 @@
     padding-right: 10px;
     margin-top: 7px;
 }
+
 .VP_EP_LEFT_SUB_1 {
     color: #E6E6E6;
     font-size: 17px;
@@ -184,8 +185,20 @@
     margin-left: 10px;
 }
 
+.VP_Right_TopBar_1_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 .VP_Right_TopBar_2 {
     color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VP_Right_TopBar_2_1 {
+    color: #D2DB08;
     font-size: 20px;
     margin-left: 10px;
 }
@@ -197,6 +210,10 @@
     font-size: 18px;
     color: #0CC6FF;
     margin-top: 15px;
+}
+
+.VP_Right_TopBar_Button1_1 {
+    display: none;
 }
 
 .VP_Right_TopBar_Button2 {
@@ -231,13 +248,52 @@
     color: #D2DB08;
     font-size: 20px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.VPRightBarSubTopBar_1_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.VPRightBarSubTopBar_1_uncomment {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 .VPRightBarSubTopBar_2 {
     color: #E6E6E6;
     margin-top: 20px;
     font-size: 20px;
+    cursor: pointer;
     margin-left: 24.3px;
+}
+
+.VPRightBarSubTopBar_2_1 {
+    color: #D2DB08;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 24.3px;
+}
+
+.VPRightBarSubTopBar_2_uncomment {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 24.3px;
+}
+
+.VPRigthBarSub1_13 {
+    color: #FF7171;
+    font-size: 15px;
+    margin-left: 237px;
+    margin-top: 30px;
 }
 
 .VPRigthBarSub1_out {
@@ -430,6 +486,7 @@
     border-radius: 8px;
     margin-top: 13px;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .VPRigthBarSub3_5 {
@@ -529,9 +586,381 @@
 .Modal_field_Text_9 {
     color: #D2DB08;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .Modal_field_Text_10 {
     color: #E6E6E6;
     font-size: 18px;
+}
+
+.Terms_modal_1 {
+    color: #D2DB08;
+    font-size: 30px;
+    margin-top: 17.1px;
+}
+
+.Terms_modal_2 {
+    height: 506px;
+}
+
+.Terms_modal_3 {
+    color: #E6E6E6;
+    font-size: 19px;
+}
+
+.modal_out1.modal-content {
+    width: 595.38px;
+    height: 693.5px;
+    border-radius: 8px;
+}
+
+.VPRigthBarSub4_out {
+    margin-top: 20px;
+    background-color: #0D2A53;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-top: 17px;
+}
+.VPRightBarSubscriber1_out {
+    margin-top: 20px;
+    background-color: #0D2A53;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;    
+    padding-top: 17px;
+}
+
+.VPRightBarWallet_out {
+    margin-top: 20px;
+    background-color: #0D2A53;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;    
+    padding-top: 17px;
+}
+
+.VPRigthBarSub4_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-right: 25.7px;
+    cursor: pointer;
+}
+
+.VPRigthBarSub4_2 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-right: 56.4px;
+    cursor: pointer;
+}
+
+.VPRigthBarSub4_3 {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #E6E6E6;
+    font-size: 25px;
+}
+
+.VPRigthBarSub4_4 {
+    padding-left: 39.5px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.VPRigthBarSub4_5 {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #E6E6E6;
+    font-size: 25px;
+    margin-top: 40.7px;
+}
+
+.VPRigthBarSub4_6 {
+    color: #E6E6E6;
+    font-size: 15px;
+    margin-right: 13.5px;
+}
+
+.VPRigthBarSub4_7 {
+    color: #37FF80;
+    font-size: 35px;
+    margin-top: -20px;
+    margin-right: 83px;
+}
+
+.VPRightBarSub4Card_out {
+    width: 132.14px;
+    height: 132.14px;
+    display: flex;
+    vertical-align: center;
+}
+
+.VPRightBarSub4CardLogo1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.VPRightBarSub4CardLogo2 {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 12px;
+    margin-left: -59px;
+}
+
+.VPRightBarSub4Card_1 {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 45px;
+    margin-left: -16px;
+    color: #E6E6E6;
+    font-size: 36px;
+}
+
+.VPRightBarSub4Card_2 {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 98px;
+    margin-left: -16px;
+    color: #E6E6E6;
+    font-size: 17px;
+}
+
+.VPRigthBarSub4_8 {
+    padding-left: 72.4px;
+    padding-right: 60.4px;
+}
+
+.VPRigthBarSub4_9 {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #E6E6E6;
+    font-size: 25px;
+    margin-top: 29px;
+}
+
+.VPRigthBarSub4_10 {
+    padding-left: 42.4px;
+    padding-right: 61.1px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -32px;
+}
+
+.VPRigthBarSub4_17 {
+    padding-left: 42.4px;
+    padding-right: 61.1px;
+    display: flex;
+    margin-left: -32px;
+}
+
+.VPRigthBarSub4_11 {
+    width: 167px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_12 {
+    width: 108px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_13 {
+    width: 124px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_14 {
+    width: 111px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_15 {
+    width: 136px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_16 {
+    width: 122px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_18 {
+    width: 139px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRightBarSub4Card_UK {
+    z-index: 100000;
+}
+
+.VP_Comment_static_Update_button {
+    color: #FFCC00;
+    width: 117px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.VP_Comment_static_Update_button.btn-outline-info {
+    border-color: #FFCC00;
+}
+
+.request_withdrawl_button {
+    width: 203px;
+    height: 46px;
+    background-color: transparent;
+    color: #0CC6FF;
+    border-color: #0CC6FF;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-left: 294px;
+    margin-top: 12px;
+}
+
+.VPRightBarWallet_1 {
+    width: 274px;
+    height: 206px;
+    background-color: #0B2447;
+    border-radius: 8px; 
+    padding-left: 14px;
+    padding-right: 14px;
+}   
+
+.VPRightBarWallet_2 {
+    width: 436px;
+    height: 206px;
+    background-color: #0B2447;
+    border-radius: 8px;    
+    margin-left: 20px;
+}
+
+.VPRightBarWallet_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 12px;   
+}
+
+.VPRightBarWallet_4 {
+    color: #E6E6E6;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_5 {
+    font-size: 22px;
+    font-weight: medium;
+    margin-top: 15px;
+}
+
+.VPRightBarWallet_6 {
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+.VPRightBarWallet_8 {
+    color: #E6E6E6;
+    font-size: 18px;
+}
+
+.VPRightBarWallet_11 {
+    color: #37FF80;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_10 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.VPRightBarWallet_12 {
+    color: #E6E6E6;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_14 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.VPRightBarWallet_13 {
+    color: #D2DB08;
+    font-size: 18px;
+    font-weight: medium;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_15 {
+    justify-content: space-evenly;
+    color: #E6E6E6;
+    font-size: 15px;
+    font-weight: medium;
+    margin-top: 167px;
 }

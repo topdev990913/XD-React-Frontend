@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
@@ -13,25 +13,80 @@ import VPRightBarSubTopBar from "../Components/ViewProfile/VPRightBarSubTopBar";
 import VPRigthBarSub1 from "../Components/ViewProfile/VPRigthBarSub1";
 import VPRigthBarSub2 from "../Components/ViewProfile/VPRightBarSub2";
 import VPRigthBarSub3 from "../Components/ViewProfile/VPRightBarSub3";
+import VPRigthBarSub1Green from "../Components/ViewProfile/VPRigthBarSub1Green";
+import VPRigthBarSub1Yellow from "../Components/ViewProfile/VPRigthBarSub1Yellow";
+import VPRigthBarSub4 from "../Components/ViewProfile/VPRightBarSub4";
+import MyCommentsEditProfile1 from "../Components/ViewProfile/MyCommentsEditProfile1";
+import VPAbout1 from "../Components/ViewProfile/VPAbout1";
+import VPRightBarSubTopBarSubscriber from "../Components/ViewProfile/VPRightBarSubTopBarSubscriber";
+import VPRightBarSubscriber1 from "../Components/ViewProfile/VPRightBarSubscriber1";
+import VPRightBarSubscriber2 from "../Components/ViewProfile/VPRightBarSubscriber2";
+import VPRightBarSubTopBarWallet from "../Components/ViewProfile/VPRightBarSubTopBarWallet";
+import VPRightBarWalletTransaction from "../Components/ViewProfile/VPRightBarWalletTransaction";
 const ViewProfile = () => {
+    const [checkedWallet, setCheckedWallet] = useState(true)
+    const [checkedSubscriber, setCheckedSubscriber] = useState(true);
+    const [checkedComment, setCheckedComment] = useState(1);
+    const [checkedBall, setCheckedBall] = useState(true);
+    const [checkedSubComment, setCheckedSubComment] = useState(1);
+    const displaySubComment = () => {
+        if (checkedComment === 1 & checkedSubComment === 1) return <>
+            <VPRigthBarSub1 checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+            <VPRigthBarSub1 checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+        </>
+        if (checkedComment === 1 & checkedSubComment === 2) return <>
+            <VPRigthBarSub1Green checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+            <VPRigthBarSub1Yellow checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+        </>
+        if (checkedComment === 1 & checkedSubComment === 3) return <VPRigthBarSub4 checkedBall={checkedBall} setCheckedBall={setCheckedBall} />
+        if (checkedComment === 2 & checkedSubscriber === true) return <VPRightBarSubscriber1 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
+        if (checkedComment === 2 & checkedSubscriber === false) return <VPRightBarSubscriber2 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
+        if (checkedComment === 3 & checkedWallet === true) return <VPRightBarWalletTransaction checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+
+    }
+    const displayCommentTopBar = () => {
+        switch (checkedComment) {
+            case 1: return <>
+                <VPRightBarSubTopBar checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+            </>
+            case 2: return <>
+                <VPRightBarSubTopBarSubscriber checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
+            </>
+            case 3: return <>
+                <VPRightBarSubTopBarWallet checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+            </>
+            default: return <>
+                <VPRightBarSubTopBar checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+            </>
+        }
+    }
     return (
         <>
             <TopBar />
             <div className="d-flex">
                 <div className="SideBar_Home_out">
-                    <SideBar/>
+                    <SideBar />
                 </div>
                 <div className="ViewProfile_Mycomments_1">
-                    <MyCommentsEditProfile />
-                    <VPAbout />
+                    {checkedSubComment === 3 && checkedBall === true ?
+                        <>
+                            <MyCommentsEditProfile1 checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                            <VPAbout1 checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                        </>
+                        :
+                        <>
+                            <MyCommentsEditProfile />
+                            <VPAbout />
+                        </>
+                    }
+
                 </div>
                 <div className="ViewProfile_Mycomments_2">
-                    <VPRightTopBar />
+                    <VPRightTopBar checkedComment={checkedComment} setCheckedComment={setCheckedComment} />
                     <div className="d-flex">
                         <div className="VP_RightBarSub1_out">
-                            <VPRightBarSubTopBar />
-                            <VPRigthBarSub1 />
-                            <VPRigthBarSub1 />
+                            {displayCommentTopBar()}
+                            {displaySubComment()}
                         </div>
                         <div className="VP_RightBarSub2_out">
                             <VPRigthBarSub2 />

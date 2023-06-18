@@ -1,0 +1,67 @@
+.VPSubscriberCard_out {
+    background-color: #0B2447;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.VPSubscriberCard_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPSubscriberCard_1_1 {
+    font-size: 20px;
+    color: #FF5757;
+}
+.VPSubscriberCard_2 {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #0D2A53;
+    border-radius: 6px;
+    color: #37FF80;
+    text-align: center;
+}
+
+.VPSubscriberCard_2_1 {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #0D2A53;
+    border-radius: 6px;
+    color: #FFCC00;
+    text-align: center;
+}
+
+.VPSubscriberCard_2_2 {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #0D2A53;
+    border-radius: 6px;
+    color: #FF5757;
+    text-align: center;
+}
+
+.Subscription_expert_button {
+    width: 71.77px;
+    height: 20.57px;
+    color: #FFA200;
+    border-color: #FFA200;
+    border-radius: 13px;
+    font-size: 13px;
+    background-color: transparent;
+}
+
+.VPSubscriberCard_2_3 {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #0D2A53;
+    border-radius: 6px;
+    color: #0CC6FF;
+    text-align: center;
+}

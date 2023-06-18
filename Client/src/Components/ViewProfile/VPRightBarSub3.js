@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import "./ViewProfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import HighlightLogo from '../../assets/lifebuoy.png';
-import { Button } from "reactstrap";
+import { Button} from "reactstrap";
+import Modal from 'react-bootstrap/Modal';
 const VPRigthBarSub3 = () => {
+    const [show1, setShow1] = useState(false);
+    const handleShow1 = () => setShow1(true);
+    const handleClose1 = () => setShow1(false);
     return (
         <div className="VPRigthBarSub3_out">
             <div className="VPRigthBarSub2_1">
@@ -20,7 +24,7 @@ const VPRigthBarSub3 = () => {
             <div className="VPRigthBarSub3_3">
                 Support Requests
             </div>
-            <div className="VPRigthBarSub3_4">
+            <div className="VPRigthBarSub3_4" onClick={handleShow1}>
                 <div className="d-flex" style={{ alignItems: "center" }}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="27" viewBox="0 0 9 27" style={{ marginLeft: "10px" }}>
                         <rect id="Rectangle_937" data-name="Rectangle 937" width="9" height="27" fill="#f8ff61" />
@@ -42,6 +46,16 @@ const VPRigthBarSub3 = () => {
                     Waiting
                 </div>
             </div>
+            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1">
+                <Modal.Header closeButton>
+                </Modal.Header>
+                <Modal.Body>
+                    
+                </Modal.Body>
+                <Modal.Footer style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }}>
+                    <Button type="submit" color="info" className="modal_Footer_Button" outline>Approve</Button>
+                </Modal.Footer>
+            </Modal>
             <div className="VPRigthBarSub3_4">
                 <div className="d-flex" style={{ alignItems: "center" }}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="27" viewBox="0 0 9 27" style={{ marginLeft: "10px" }}>
@@ -60,7 +74,7 @@ const VPRigthBarSub3 = () => {
                         <path d="M 11.99999237060547 4 L 11.99999237060547 40 L 100.3462295532227 40 C 101.9935455322266 40 103.572395324707 39.47816467285156 104.6779251098633 38.56831741333008 C 105.196662902832 38.14141845703125 106.0668792724609 37.24006652832031 106.0668792724609 36 L 106.0668792724609 8 C 106.0668792724609 6.759933471679688 105.196662902832 5.85858154296875 104.6779251098633 5.431682586669922 C 103.572395324707 4.521831512451172 101.9935455322266 4 100.3462295532227 4 L 11.99999237060547 4 M 7.999992370605469 0 L 100.3462295532227 0 C 105.7148132324219 0 110.0668792724609 3.581718444824219 110.0668792724609 8 L 110.0668792724609 36 C 110.0668792724609 40.41828155517578 105.7148132324219 44 100.3462295532227 44 L 7.999992370605469 44 L 7.999992370605469 0 Z" stroke="none" fill="#0d2a53" />
                     </g>
                 </svg>
-                <div className="VPRigthBarSub3_7" style={{marginLeft: "349px"}}>
+                <div className="VPRigthBarSub3_7" style={{ marginLeft: "349px" }}>
                     Closed
                 </div>
             </div>
@@ -83,7 +97,7 @@ const VPRigthBarSub3 = () => {
                         <path d="M 11.99999237060547 4 L 11.99999237060547 40 L 100.3462295532227 40 C 101.9935455322266 40 103.572395324707 39.47816467285156 104.6779251098633 38.56831741333008 C 105.196662902832 38.14141845703125 106.0668792724609 37.24006652832031 106.0668792724609 36 L 106.0668792724609 8 C 106.0668792724609 6.759933471679688 105.196662902832 5.85858154296875 104.6779251098633 5.431682586669922 C 103.572395324707 4.521831512451172 101.9935455322266 4 100.3462295532227 4 L 11.99999237060547 4 M 7.999992370605469 0 L 100.3462295532227 0 C 105.7148132324219 0 110.0668792724609 3.581718444824219 110.0668792724609 8 L 110.0668792724609 36 C 110.0668792724609 40.41828155517578 105.7148132324219 44 100.3462295532227 44 L 7.999992370605469 44 L 7.999992370605469 0 Z" stroke="none" fill="#0d2a53" />
                     </g>
                 </svg>
-                <div className="VPRigthBarSub3_7" style={{marginLeft: "342px"}}>
+                <div className="VPRigthBarSub3_7" style={{ marginLeft: "342px" }}>
                     Progress
                 </div>
             </div>
