@@ -1,5 +1,5 @@
 .SideBar_Home_out {
-    margin-top: 20px;    
+    margin-top: 20px;
     margin-right: 20px;
 }
 
@@ -25,4 +25,10 @@
 
 .VP_RightBarSub2_out {
     width: 36.3%;
+}
+
+.Sub3Logo {
+    margin-left: 12px;
+    margin-top: 20px;
+    width: 458px;
 }

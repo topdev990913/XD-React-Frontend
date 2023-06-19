@@ -3,13 +3,13 @@ import { Row } from "reactstrap";
 import "../Css/Components.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-const SideBar = ({checkedMainOption, setCheckedMainOption}) => {
+const SideBar = ({ checkedMainOption, setCheckedMainOption }) => {
     console.log("checkedMainOption", checkedMainOption)
     return (
         <div className="SideBar_out">
             <Row>
                 {checkedMainOption === 1 ?
-                    <svg id="apps" xmlns="http://www.w3.org/2000/svg" width="40.876" height="40.876" viewBox="0 0 40.876 40.876" className="MainOption" onClick={() => { setCheckedMainOption(1) }} style={{marginTop: "37.17px"}}>
+                    <svg id="apps" xmlns="http://www.w3.org/2000/svg" width="40.876" height="40.876" viewBox="0 0 40.876 40.876" className="MainOption" onClick={() => { setCheckedMainOption(1) }} style={{ marginTop: "37.17px" }}>
                         <path id="Path_38" data-name="Path 38" d="M0,0H40.876V40.876H0Z" fill="none" />
                         <path id="Path_39" data-name="Path 39" d="M4,4,4,5.7A1.7,1.7,0,0,1,5.7,4h6.813a1.7,1.7,0,0,1,1.7,1.7v6.813a1.7,1.7,0,0,1-1.7,1.7H5.7a1.7,1.7,0,0,1-1.7-1.7Z" transform="translate(2.813 2.813)" fill="none" stroke="#d2db08" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         <path id="Path_40" data-name="Path 40" d="M4,14m0,1.7A1.7,1.7,0,0,1,5.7,14h6.813a1.7,1.7,0,0,1,1.7,1.7v6.813a1.7,1.7,0,0,1-1.7,1.7H5.7a1.7,1.7,0,0,1-1.7-1.7Z" transform="translate(2.813 9.844)" fill="none" stroke="#d2db08" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
@@ -18,7 +18,7 @@ const SideBar = ({checkedMainOption, setCheckedMainOption}) => {
                         <path id="Path_43" data-name="Path 43" d="M17,4V14.219" transform="translate(11.954 2.813)" fill="none" stroke="#d2db08" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                     </svg>
                     :
-                    <svg id="apps" xmlns="http://www.w3.org/2000/svg" width="40.876" height="40.876" viewBox="0 0 40.876 40.876" className="MainOption" onClick={() => { setCheckedMainOption(1) }} style={{marginTop: "37.17px"}}>
+                    <svg id="apps" xmlns="http://www.w3.org/2000/svg" width="40.876" height="40.876" viewBox="0 0 40.876 40.876" className="MainOption" onClick={() => { setCheckedMainOption(1) }} style={{ marginTop: "37.17px" }}>
                         <path id="Path_38" data-name="Path 38" d="M0,0H40.876V40.876H0Z" fill="none" />
                         <path id="Path_39" data-name="Path 39" d="M4,4,4,5.7A1.7,1.7,0,0,1,5.7,4h6.813a1.7,1.7,0,0,1,1.7,1.7v6.813a1.7,1.7,0,0,1-1.7,1.7H5.7a1.7,1.7,0,0,1-1.7-1.7Z" transform="translate(2.813 2.813)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         <path id="Path_40" data-name="Path 40" d="M4,14m0,1.7A1.7,1.7,0,0,1,5.7,14h6.813a1.7,1.7,0,0,1,1.7,1.7v6.813a1.7,1.7,0,0,1-1.7,1.7H5.7a1.7,1.7,0,0,1-1.7-1.7Z" transform="translate(2.813 9.844)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
@@ -66,12 +66,19 @@ const SideBar = ({checkedMainOption, setCheckedMainOption}) => {
                     </svg>
                 }
             </Row>
-            <Row>
-                <svg id="star" xmlns="http://www.w3.org/2000/svg" width="40.51" height="40.51" viewBox="0 0 40.51 40.51" style={{ marginTop: "35px" }} className="MainOption" onClick={() => { setCheckedMainOption(4) }}>
-                    <path id="Path_272" data-name="Path 272" d="M0,0H40.51V40.51H0Z" fill="none" />
-                    <path id="Path_273" data-name="Path 273" d="M18.532,27.878,8.326,33.21l1.95-11.293-8.268-8,11.41-1.643L18.52,2l5.1,10.275,11.41,1.643-8.268,8,1.95,11.293Z" transform="translate(1.722 1.717)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                </svg>
-            </Row>
+                <Row>
+                    {checkedMainOption === 4 ?
+                        <svg id="star" xmlns="http://www.w3.org/2000/svg" width="40.51" height="40.51" viewBox="0 0 40.51 40.51" style={{ marginTop: "35px" }} className="MainOption" onClick={() => { setCheckedMainOption(4) }}>
+                            <path id="Path_272" data-name="Path 272" d="M0,0H40.51V40.51H0Z" fill="none" />
+                            <path id="Path_273" data-name="Path 273" d="M18.532,27.878,8.326,33.21l1.95-11.293-8.268-8,11.41-1.643L18.52,2l5.1,10.275,11.41,1.643-8.268,8,1.95,11.293Z" transform="translate(1.722 1.717)" fill="none" stroke="#d2db08" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                        :
+                        <svg id="star" xmlns="http://www.w3.org/2000/svg" width="40.51" height="40.51" viewBox="0 0 40.51 40.51" style={{ marginTop: "35px" }} className="MainOption" onClick={() => { setCheckedMainOption(4) }}>
+                            <path id="Path_272" data-name="Path 272" d="M0,0H40.51V40.51H0Z" fill="none" />
+                            <path id="Path_273" data-name="Path 273" d="M18.532,27.878,8.326,33.21l1.95-11.293-8.268-8,11.41-1.643L18.52,2l5.1,10.275,11.41,1.643-8.268,8,1.95,11.293Z" transform="translate(1.722 1.717)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    }
+                </Row>
             <Row>
                 <svg id="logout" xmlns="http://www.w3.org/2000/svg" width="40.51" height="40.51" viewBox="0 0 40.51 40.51" style={{ marginTop: "35px" }} className="MainOption" onClick={() => { setCheckedMainOption(5) }}>
                     <path id="Path_87" data-name="Path 87" d="M0,0H40.51V40.51H0Z" fill="none" />

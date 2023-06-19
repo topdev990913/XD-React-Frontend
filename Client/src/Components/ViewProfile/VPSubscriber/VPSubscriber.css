@@ -7,6 +7,15 @@
     margin-top: 23px;
 }
 
+.VPFavouriteCard_out {
+    background-color: #0B2447;
+    height: 83px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .VPSubscriberCard_1 {
     color: #E6E6E6;
     font-size: 20px;
@@ -64,4 +73,32 @@
     border-radius: 6px;
     color: #0CC6FF;
     text-align: center;
+}
+
+.Favourite_Avatar {
+    margin-top: 3px;
+}
+
+.VPFavouriteCard_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPFavouriteCard_2 {
+    color: #D2DB08;
+    font-size: 20px;
+}
+
+.VPFavouriteCard_3 {
+    color: #FFA200;
+    font-size: 20px;
+}
+
+.Favourite_ViewProfile_butoon {
+    color: #4DD5FF;
+    border-color: #4DD5FF;
+    width: 154px;
+    height: 34px;
+    border-radius: 6px;
+    font-size: 18px;
 }

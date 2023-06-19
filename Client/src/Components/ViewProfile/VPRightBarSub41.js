@@ -13,14 +13,15 @@ import VPRightBarSub4Card_Spain from "../../assets/indir (3).png";
 import VPRightBarSub4Card_Germany from "../../assets/indir (4).png";
 import VPRightBarSub4Card_France from "../../assets/indir (5).png";
 import VPRightBarSub4Card_Poland from "../../assets/indir (6).png";
-const VPRigthBarSub4 = () => {    
+const VPRigthBarSub41 = ({checkedVPball, setCheckedVpball}) => {    
+    console.log("checkedVPball", checkedVPball)
     return (
-        <div className="VPRigthBarSub4_out">
+        <div className="VPRigthBarSub41_out">
             <div className="d-flex justify-content-end">
-                <div className="VPRigthBarSub4_1">
+                <div className={checkedVPball===1?"VPRigthBarSub4_1":"VPRigthBarSub4_1_1"} onClick={() => {setCheckedVpball(1)}}>
                     Football
                 </div>
-                <div className="VPRigthBarSub4_2">
+                <div className={checkedVPball===2?"VPRigthBarSub4_2_1":"VPRigthBarSub4_2"} onClick={() => {setCheckedVpball(2)}}>
                     Basketball
                 </div>
             </div>
@@ -251,4 +252,4 @@ const VPRigthBarSub4 = () => {
         </div>
     );
 };
-export default VPRigthBarSub4;
+export default VPRigthBarSub41;
