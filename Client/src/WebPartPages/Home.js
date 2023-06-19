@@ -12,13 +12,14 @@ import LeftBarHighlight from "../Components/LeftBarHighlight";
 import MainMiddleBar from "../Components/MainMiddleBar";
 import MainBarEdit from "../Components/MainBar_Edit";
 import MainBarComments from "../Components/MainBarComments";
-import VPRightTopBar from "../Components/ViewProfile/VPRightTopBar";
 import VPRightBarSubTopBar from "../Components/ViewProfile/VPRightBarSubTopBar";
 import VPRigthBarSub1 from "../Components/ViewProfile/VPRigthBarSub1";
 import VPRigthBarSub2 from "../Components/ViewProfile/VPRightBarSub2";
 import VPRigthBarSub3 from "../Components/ViewProfile/VPRightBarSub3";
 import MyCommentsEditProfileStar from "../Components/ViewProfile/MyCommentsEditProfileStar";
+import VPRightTopBarStar from "../Components/ViewProfile/VPRightTopBarStar";
 const Home = () => {
+    const [checkedCommentStar, setCheckedCommentStar] = useState(1)
     const [checkedForYou, setCheckedForYou] = useState(1);
     const [checkedMainOption, setCheckedMainOption] = useState(1)
     const displayCase = () => {
@@ -37,7 +38,7 @@ const Home = () => {
                 <MyCommentsEditProfileStar />
             </div>
             <div className="ViewProfile_Mycomments_2">
-                <VPRightTopBar />
+                <VPRightTopBarStar checkedCommentStar={checkedCommentStar} setCheckedCommentStar={setCheckedCommentStar}/>
                 <div className="d-flex">
                     <div className="VP_RightBarSub1_out">
                         <VPRightBarSubTopBar />

@@ -1447,7 +1447,67 @@
     font-size: 23px;
 }
 
-.VP_MC_EP_out_star_1{
-    display: flex;
-    justify-content: end;
+.VP_MC_EP_out_star_2 {
+    color: #4DD5FF;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.VP_MC_EP_out_star_1 {
+    padding-top: 8.5px;
+}
+
+.User_Star_Logo {
+    position: absolute;
+    margin-top: -23px;
+}
+
+.camera_Star_Logo {
+    position: absolute;
+    margin-top: 36px;
+    margin-left: -136px;
+}
+
+.VP_MC_EP_out_star_3 {
+    color: #E6E6E6;
+    font-size: 22px;
+    font-weight: medium;
+    text-align: center;
+    margin-top: 120px;
+}
+.VP_MC_EP_out_star_4 {
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+}
+
+.VP_MC_EP_out_star_5 {
+    justify-content: space-between;
+}
+
+
+.VP_MC_EP_out_star_6 {
+    color: #E6E6E6;
+    font-size: 18px;    
+}
+
+.VP_MC_EP_out_star_7 {
+    color: #E6E6E6;
+    font-size: 25px; 
+    font-weight: medium;   
+}
+
+.VP_MC_EP_out_star_0 {
+    text-align: center;
+}
+
+.Deactivate_account_button {
+    color: #FF5757;
+    border-color: #FF5757;
+    width: 255px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+    font-weight: medium;
+    margin-top: 40px;
 }
